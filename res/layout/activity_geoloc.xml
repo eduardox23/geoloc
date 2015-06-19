@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/phoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Contact Phone Number : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/editPhoneNum"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone" >
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_my_calendar" />
+
+    <TextView
+        android:id="@+id/SMSLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter SMS Message : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/editSMS"
+        android:layout_width="fill_parent"
+        android:layout_height="61dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+
+    <Button
+        android:id="@+id/retrieveSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RetrieveSend" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+</LinearLayout>
